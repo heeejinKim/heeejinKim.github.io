@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,700');
+@import url('https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css');
+
+body {
+	font-family: 'Spoqa Han Sans', 'Sans-serif'; 
+	background-color: #fff;
+	line-height: 1.3;
+
+}
+
+a {
+	color: #495057;
+	line-height: 1.3;
+}
+
+p {
+	color: #495057;
+}
+
+header {
+	z-index: 20000;
+	width:100%;
+	height: 6rem;
+	position: fixed;
+	top: 0;
+	background:linear-gradient(to bottom, rgba(255,255,255,1) 50%,rgba(255,255,255,0) 100%); 
+}
+
+nav {
+	float: right;
+}
+
+hr {
+	border-top: 1px solid #ccc; background: transparent;
+}
+
+/*a {
+	text-decoration:none;
+	color: #343a40;
+
+}*/
+
+.title {
+	text-decoration:none;
+	color: #343a40;
+	display: inline-block;
+	height: 6rem;
+	margin: 2rem 0 2rem 4rem;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	font-size: 2rem;
+	letter-spacing: -0.08rem;
+
+}
+
+.title:hover {
+	color: #364fc7;
+	transition: all 0.4s;
+}
+
+.nav-items > li {
+	display: inline-block;
+}
+
+.nav-items > li > a {
+	text-decoration:none;
+	line-height: 6rem;
+	padding: 0 4rem 0 2.5rem;
+	color: #495057;
+	font-family: 'Spoqa Han Sans', 'Sans-serif';
+	font-size: 1rem;
+}
+
+.nav-items > li > a:hover {
+	color: #dee2e6;
+	transition: all 0.2s;
+}
+
+.one {
+	border-bottom: 0; margin-top: 3rem; margin-bottom: 3rem;
+	border-color: #ced4da;
+}
+
+.two {
+	border-bottom: 0; margin-bottom: 1rem;
+	border-color: #ced4da;
+}
+
+#content-wrap {
+	margin: 16rem 4rem 4rem 4rem;
+}
+
+#content-wrap > #logo {
+	margin-top: -6rem;
+	padding-bottom: 7rem; 
+	float: center;
+	text-align: center;
+	line-height: 1.4;
+}
+
+#content-wrap > #logo > h1 {
+	letter-spacing: -0.09rem;
+	font-weight: 700;
+	font-size: 1.5rem;
+}
+
+#content-wrap > #logo > p {
+	letter-spacing: -0.02rem;
+	color: #adb5bd;
+}
+
+#intro {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 
+	line-height: 1.4;
+	font-color: #868e96;
+}
+
+/*article {
+	height: 4rem;
+	display: inline-block;
+	margin-bottom: 1.5rem;
+}*/
+
+#pjs > article {
+	background-color: gray;
+	width: 92%;
+	height: 20rem;
+	display: inline-block;
+	padding: 4%;
+	margin:auto;
+	
+	/*font-weight: 600;
+	font-color: #495057;
+	font-size: 2rem;
+	line-height: 1.2;*/
+}
+section#pjs > a {
+	color: #212529;
+}
+
+article > h1 {
+	font-size: 1.8rem;
+	line-height: 1.4;
+	font-weight: 600;
+	font-color: #495057;
+}
+
+article > h2 {
+	font-size: 1rem;
+	line-height: 1.4;
+	font-weight: 400;
+	font-color: #495057;
+}
+
+article > p {
+	font-size: 1rem;
+	line-height: 1.4;
+	font-weight: 400;
+	font-color: #495057;
+}
+
+/*#pjs > article > p {
+	font-size: 1.2rem;
+	line-height: 1.2;
+}*/
+
+div.pj1 {
+	background-image: url("https://images.unsplash.com/photo-1530475881581-e0e8a26b8192?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0c85dd56eed0292235088eab798a96d2&auto=format&fit=crop&w=1789&q=80");
+	background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+	width: 92%;
+	height: 20rem;
+	display: inline-block;
+	padding: 4%;
+	margin-bottom: 1.5rem;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+div.pj1:hover {
+	 -webkit-filter: brightness(110%) saturate(25%);
+	 filter: brightness(110%) saturate(25%);
+}
+
+div.pj2 {
+	background-image: url("https://webgradients.com/public/webgradients_png/032%20Sharpeye%20Eagle.png");
+	background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+	width: 92%;
+	height: 20rem;
+	display: inline-block;
+	padding: 4%;
+	margin-bottom: 1.5rem;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+div.pj2:hover {
+	 -webkit-filter: brightness(110%) saturate(25%);
+	 filter: brightness(110%) saturate(25%);
+}
+
+div.pj3 {
+	background-image: url("https://images.unsplash.com/photo-1484977975800-86a4c7bd7235?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=593866fabe9435237658ef44224d80bc&w=1000&q=80");
+	background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+	width: 92%;
+	height: 20rem;
+	display: inline-block;
+	padding: 4%;
+	margin-bottom: 1.5rem;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+div.pj3:hover {
+	-webkit-filter: brightness(110%) saturate(25%);
+	 filter: brightness(110%) saturate(25%);
+}
+
+div.pj4 {
+	background-image: url("https://images.unsplash.com/photo-1484977975800-86a4c7bd7235?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=593866fabe9435237658ef44224d80bc&w=1000&q=80");
+	background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+	width: 92%;
+	height: 20rem;
+	display: inline-block;
+	padding: 4%;
+	margin-bottom: 1.5rem;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+div.pj4:hover {
+	-webkit-filter: brightness(110%) saturate(25%);
+	 filter: brightness(110%) saturate(25%);
+}
+
+div.pj5 {
+	background-image: url("https://webgradients.com/public/webgradients_png/032%20Sharpeye%20Eagle.png");
+	background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+	width: 92%;
+	height: 20rem;
+	display: inline-block;
+	padding: 4%;
+	margin-bottom: 1.5rem;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+div.pj5:hover {
+	 -webkit-filter: brightness(110%) saturate(25%);
+	 filter: brightness(110%) saturate(25%);
+}
+
+div.pj6 {
+	background-image: url("https://webgradients.com/public/webgradients_png/032%20Sharpeye%20Eagle.png");
+	background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+	width: 92%;
+	height: 20rem;
+	display: inline-block;
+	padding: 4%;
+	margin-bottom: 1.5rem;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+div.pj6:hover {
+	 -webkit-filter: brightness(110%) saturate(25%);
+	 filter: brightness(110%) saturate(25%);
+}
+
+div.pj7 {
+	background-image: url("https://webgradients.com/public/webgradients_png/032%20Sharpeye%20Eagle.png");
+	background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+	width: 92%;
+	height: 20rem;
+	display: inline-block;
+	padding: 4%;
+	margin-bottom: 1.5rem;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+div.pj7:hover {
+	 -webkit-filter: brightness(110%) saturate(25%);
+	 filter: brightness(110%) saturate(25%);
+}
+
+div.pj8 {
+	background-image: url("https://webgradients.com/public/webgradients_png/032%20Sharpeye%20Eagle.png");
+	background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+	width: 92%;
+	height: 20rem;
+	display: inline-block;
+	padding: 4%;
+	margin-bottom: 1.5rem;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+div.pj8:hover {
+	 -webkit-filter: brightness(110%) saturate(25%);
+	 filter: brightness(110%) saturate(25%);
+}
+
+
+/*
+#pj2 {
+	background-color: blue;
+	width: 100%;
+	height: 24rem;
+	display: inline-block;
+}*/
+
+footer {
+	text-align: center;
+	margin: 7rem 4rem 2rem 4rem;
+	font-family: 'Ubuntu', sans-serif;
+	font-color: blue;
+	line-height: 1.4;
+	/*background-color: blue;*/
+}
+
+/*-----------------about page*/
+
+section#logo {
+	color: #343a40;
+	margin-bottom: -4rem;
+}
+
+section#about {
+	margin-top : -2rem;
+	margin-bottom: 14rem;
+}
+
+.about1 a:hover {
+	color: #adb5bd;
+	transition: all 0.3s
+}
+
+ul {
+	list-style: none;
+}
+
+div.about1 {
+	width: 40%;
+	margin: 0 auto 5rem;
+	word-break: break-all;
+	line-height: 1.5;
+}
+
+div.skill {
+	width: 49%;
+	display: inline-block;
+
+	line-height: 1.5;
+}
+
+section#about h1 {
+	font-weight: 400;
+	font-size: 1.2rem;
+	color: #343a40;
+}
+
+div.skill ul {
+	color:#adb5bd;
+}
+
+div.experience {
+	width: 49%;
+	display: inline-block;
+	float: right;
+
+	line-height: 1.5;
+}
+
+div.experience > ul {
+	color: #343a40;
+	font-weight: 700;
+}
+
+div.experience ul li {
+	padding-left: 0.5rem;
+	color: #adb5bd;
+	font-weight: 400;
+}
+
+
+/*----------------media query start*/
+
+@media screen and (max-width: 806px) {
+	
+/*	#wrap {
+		}*/
+
+	header {
+		height: 4rem;
+		background-color: rgba(255, 255, 255, 0.8);
+		box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.09);
+	
+	}
+
+
+	
+	.title {
+	display: inline-block;
+	height: 4rem;
+	margin: 1rem 0 0 1.2rem;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	font-size: 1.5rem;
+	letter-spacing: -0.08rem;
+
+	}
+
+	nav {
+		float: right;
+		height: 4rem;
+	}
+
+	.nav-items > li > a {
+		line-height: 4rem;
+		font-size: 0.8rem;
+		padding: 0 1.4rem 0 0.5rem;
+	}
+	
+	#content-wrap {
+	margin: 7rem 1.4rem 1.4rem 1.4rem;
+}
+
+	#content-wrap > #logo {
+	margin-top: 1rem;
+	padding-bottom: 7rem; 
+	}
+
+	div.pj1 {
+		height: 13rem;
+	}
+	div.pj2 {
+		height: 13rem;
+	}
+	div.pj3 {
+		height: 13rem;	
+	}
+	div.pj4 {
+		height: 13rem;	
+	}
+	div.pj5 {
+		height: 13rem;	
+	}
+	div.pj6 {
+		height: 13rem;	
+	}
+	div.pj7 {
+		height: 13rem;	
+	}
+	div.pj8 {
+		height: 13rem;	
+	}
+	
+	div.about1{
+		width: 90%;
+	}
+
+	div.skill{
+		margin-top: 3rem;
+		display: block;
+		width: 100%
+	}
+	div.experience{
+		display: block;
+		width: 100%;
+		margin-top: 3rem;
+		margin-bottom: 6rem;
+	}
+
+}
+
+/*----------------media query end*/
