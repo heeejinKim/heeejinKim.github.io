@@ -99,6 +99,14 @@ img {
 	margin-bottom: 1rem;
 }
 
+.four {
+	border-bottom: 0;
+	border-color: #495057;
+	width: 28%;
+	margin-left: 0;
+	margin-bottom: 0.4rem;
+}
+
 #content-wrap {
 	margin: 16rem 4rem 4rem 4rem;
 }
@@ -452,6 +460,14 @@ div#overview {
 	#content-wrap > #logo {
 	margin-top: 1rem;
 	padding-bottom: 7rem; 
+	}
+
+	.text-wrapper h1 {
+		font-size: 1.2rem;
+	}
+
+	.text-wrapper h2 {
+		font-size: 0.9rem;
 	}
 
 	#pjs {
